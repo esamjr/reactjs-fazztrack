@@ -1,0 +1,24 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* height: 50vh; */
+}
+
+.detail-img img {
+  width: 500px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.detail-desc {
+  width: 80%;
+}
+
+.detail-price,
+.detail-name,
+.detail-desc {
+  text-align: center;
+}
